@@ -44,11 +44,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/morlay/babel-plugin-transform-require-ignore.git"
+    "url": "git+https://github.com/iwatakeshi/babel-plugin-remove-import-styles.git"
   },
   "author": "iwatakeshi",
   "bugs": {
-    "url": "https://github.com/morlay/babel-plugin-transform-require-ignore/issues"
+    "url": "https://github.com/iwatakeshi/babel-plugin-remove-import-styles/issues"
   },
-  "homepage": "https://github.com/morlay/babel-plugin-transform-require-ignore#readme"
+  "homepage": "https://github.com/iwatakeshi/babel-plugin-remove-import-styles#readme"
 }
