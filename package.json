@@ -1,6 +1,6 @@
 {
   "name": "@iwatakeshi/babel-plugin-remove-import-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes imported styles using import or require",
   "main": "./.build/index.js",
   "files": [
