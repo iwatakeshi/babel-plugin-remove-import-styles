@@ -1,4 +1,4 @@
-## babel-plugin-transform-require-ignore
+## babel-plugin-remove-import-styles
 
 ![Node CI](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/workflows/Node.js%20CI/badge.svg)
 
