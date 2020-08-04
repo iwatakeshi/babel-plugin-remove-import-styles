@@ -16,14 +16,52 @@ Forked from [babel-plugin-transform-require](https://github.com/morlay/babel-plu
     "production": {
       "plugins": [
         [
-          "babel-plugin-transform-require-ignore",
+          "@iwatakeshi/babel-plugin-remove-import-styles",
           {
-            "extensions": [".less", ".sass"]
+            "extensions": [".less", ".sass", ".css"]
           }
         ]
       ]
     }
   }
 }
+
+```
+
+## Recipes
+
+### Next.js
+
+This plugin can be used in conjunction with [next-transpile-modules](https://github.com/martpie/next-transpile-modules#readme) to remove styles from third-party modules.
+
+To do so, you'll need to configure a `babel.config.js` file (note that `.babelrc` would not work &mdash; in my case it did not):
+
+```js
+module.exports = {
+  presets: ['next/babel'],
+  overrides: [
+    {
+      include: ['./node_modules'],
+      plugins: [
+        [
+          '@iwatakeshi/babel-plugin-remove-import-styles',
+          {
+            extensions: ['.css']
+          },
+        ],
+      ],
+    },
+  ],
+}
+```
+
+Then you'll need to add a `next.config.js` file that uses `next-transpile-modules` and add the list of third-party modules that import styles in their library: 
+
+```js
+const withTM = require('next-transpile-modules')(['@fullcalendar']) // In my case, it was fullcalendar
+
+module.exports = withTM({
+  // any other general next.js settings
+})
 
 ```
