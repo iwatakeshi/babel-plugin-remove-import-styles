@@ -1,7 +1,6 @@
 ## babel-plugin-remove-import-styles
 
-[![Node CI](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/workflows/Node%20CI/badge.svg)](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/actions?query=workflow%3A%22Node+CI%22)
-
+[![Node CI](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/workflows/Node.js%20CI/badge.svg)](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/actions?query=workflow%3A%22Node.js+CI%22)
 ![Codecov](https://img.shields.io/codecov/c/github/iwatakeshi/babel-plugin-remove-import-styles)
 [![Version](https://img.shields.io/npm/v/@iwatakeshi/babel-plugin-remove-import-styles.svg)](https://www.npmjs.com/package/@iwatakeshi/babel-plugin-remove-import-styles)
 [![Downloads/week](https://img.shields.io/npm/dw/@iwatakeshi/babel-plugin-remove-import-styles.svg)](https://www.npmjs.com/package/@iwatakeshi/babel-plugin-remove-import-styles)
