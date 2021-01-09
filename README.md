@@ -6,7 +6,7 @@
 [![Downloads/week](https://img.shields.io/npm/dw/@iwatakeshi/babel-plugin-remove-import-styles.svg)](https://www.npmjs.com/package/@iwatakeshi/babel-plugin-remove-import-styles)
 [![License](https://img.shields.io/github/license/iwatakeshi/babel-plugin-remove-import-styles)](https://github.com/iwatakeshi/babel-plugin-remove-import-styles/blob/master/LICENSE.md)
 
-Forked from [babel-plugin-transform-require](https://github.com/morlay/babel-plugin-transform-require-ignore), this plugin was re-written using Typescript. Its purpose it to remove styles that were imported using `import` or `require` statements.
+Forked from [babel-plugin-transform-require](https://github.com/morlay/babel-plugin-transform-require-ignore), this plugin was re-written using Typescript. Its purpose is to remove styles that were imported using `import` or `require` statements.
 
 ## Usage
 
